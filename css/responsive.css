@@ -374,6 +374,22 @@
 	    overflow: hidden;
 	}
 
+	.main-slider .slide {
+	    height: 410px;
+	}
+
+	.main-slider .slide img.desktop-img {
+	    display: none;
+	}
+
+	.main-slider .slide img.resp-tab-img {
+	    display: block;
+	}
+
+	.main-slider .slide img.resp-smart-img {
+	    display: none;
+	}
+
 	.promo-section-box:after {
 		display: none;
 	}
@@ -682,11 +698,19 @@
 	    height: 300px;
 	}
 
+	.main-slider .slide {
+	    height: 300px;
+	}
+
 	.main-slider .slide img.desktop-img {
 	    display: none;
 	}
 
-	.main-slider .slide img.resp-img {
+	.main-slider .slide img.resp-tab-img {
+	    display: none;
+	}
+
+	.main-slider .slide img.resp-smart-img {
 	    display: block;
 	}
 
