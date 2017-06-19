@@ -757,6 +757,18 @@
 	    height: 350px;
 	}
 
+	.big-photo img.desktop-img {
+	    display: none;
+	}
+
+	.big-photo img.resp-img {
+	    display: block;
+	}
+
+	.portfolio-slider-arrows .slick-arrow {
+	    margin: -100px 0 0 0;
+	}
+
 	/*-- /Section 5 Main Page --*/
 
 /*	.clear-block {

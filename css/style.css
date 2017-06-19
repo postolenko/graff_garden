@@ -1810,6 +1810,14 @@ a:active {
     min-height: 100%;
 }
 
+.big-photo img.desktop-img {
+    display: block;
+}
+
+.big-photo img.resp-img {
+    display: none;
+}
+
 .portfolio-slider-big .slide h3 {
     font-family: "Museo Sans Cyrl", Arial, Verdana, sans-serif;
     font-size: 30px;
