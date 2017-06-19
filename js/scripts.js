@@ -60,18 +60,18 @@ $(document).ready(function() {
 
     $(function() {
 
-    $(".main-slider-dots-append").append("<span class='line'></span>");
+        $(".main-slider-dots-append").append("<span class='line'></span>");
 
-        var lineSizeInterval = setTimeout(function() {
+            var lineSizeInterval = setTimeout(function() {
 
-            if($(".main-slider").hasClass("slick-initialized")) {
+                if($(".main-slider").hasClass("slick-initialized")) {
 
-                clearInterval(lineSizeInterval);
+                    clearInterval(lineSizeInterval);
 
-                getLineControlsSize();
-            }
+                    getLineControlsSize();
+                }
 
-        }, 35);
+            }, 35);
 
     });
 
@@ -203,6 +203,22 @@ $(document).ready(function() {
                 $(".tabs:eq("+ indexTabs +") .tab-nav li:eq("+ indexTabLink +") button").prepend("<span class='tab-link-num'><i class='num'>"+ ( indexTabLink + 1 ) +"</i></span>");
 
             }
+
+        }
+
+    });
+
+    // ----------------------
+
+    $(function() {
+
+        if(bodyWidth <= 768) {
+
+            $(".coin").click(function() {
+
+                $(".make-clean").click();
+
+            });
 
         }
 

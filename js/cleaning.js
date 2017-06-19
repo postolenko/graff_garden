@@ -55,4 +55,3 @@ function initCanvas() {
   car.style.height=el('cover').offsetHeight+"px";
 }
 
-
