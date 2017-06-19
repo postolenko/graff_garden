@@ -18,11 +18,11 @@
 	<script type="text/javascript" src="vendors/js/jquery.js"></script>
 	<script type="text/javascript" src="vendors/js/parallax.js"></script>
 	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
+	<!-- <script type="text/javascript" src="vendors/js/smoothscroll.js"></script> -->
 	<script type="text/javascript" src="slick/slick.js"></script>
 	<script type="text/javascript" src="vendors/js/wow.min.js"></script>
 	<script>new WOW().init();</script>
-	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<!-- 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> -->
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
 	
 	<title>Garden Graff</title>
@@ -771,7 +771,7 @@
 
 			<!-- Section 8 Main Page -->
 
-			<!-- 	<section class="promo-code-sect">
+				<section class="promo-code-sect">
 
 					<div class="promo_code-bg" data-parallax="scroll" data-image-src="img/promo_code_bg.jpg"></div>
 
@@ -783,7 +783,56 @@
 
 							<form>
 
-								<div class="col col-1"></div>
+								<div class="col col-1">
+									
+									<div class="coin">
+										<img src="img/coin.png" alt="" />
+									</div>
+
+									<div class="promo-card">
+										<div class="clear-block">
+											
+
+										<!-- /////////////////////// -->
+
+					<!-- <div id="car-box"> -->
+						<!-- <div class="block-in"> -->
+
+							<script src="js/cleaning.js" type="text/javascript"></script>
+
+							<input type="text" class="disc-val" value="12%">
+
+							<canvas class="promo-box" id="promo_disc"></canvas>
+
+							<div  style="width: 396px; height: 110px;position:relative" id="cover" onmousemove="try {draw((event.offsetX||event.layerX), (event.offsetY||event.layerY))} catch(e) {}" onmouseover="{X=0; Y=0}"></div>
+
+							<script type="text/javascript">
+								var dirty = new Image(), clean = new Image(), carsLoad=0;
+								// Переменные, которые можно менять
+								clean.src = 'img/promo_code.jpg';
+								dirty.src = 'img/dirty.jpg';
+								d = 80; // Размер очищаемой области
+								window.onload = initCanvas
+							</script>
+
+							<!-- <div class="links">
+								<a href="javascript:clearAll()" class="make-clean"><span>Помыть</span></a>
+								<a href="javascript:blurAll()" class="make-dirty"><span>Испачкать</span></a>
+							</div> -->
+						<!-- </div> -->
+					<!-- </div> -->
+
+
+
+
+
+										<!-- //////////////////////// -->
+
+										</div>
+										<p>Сотрите защитное покрытие и получите скидку до - 15%!</p>
+									</div>
+
+								</div>
 
 								<div class="col col-2">
 
@@ -795,8 +844,8 @@
 										<input type="tel" placeholder="+7 (___) ___-__-__">
 									</div>										
 
-									<div class="input-block">
-										<button type="submit">Получить скидку</button>
+									<div class="submit-block">
+										<button type="submit" class="submit-btn">Получить скидку</button>
 									</div>
 
 								</div>
@@ -810,7 +859,7 @@
 
 					</div>
 
-				</section> -->
+				</section>
 
 			<!-- /Section 8 Main Page -->
 
@@ -907,7 +956,7 @@
 
 		<script src="js/scripts.js"></script>
 		<script src="js/additional_scripts.js"></script>
-		<script src="js/map.js"></script>
+		<!-- <script src="js/map.js"></script> -->
 
 	
 	</div>
