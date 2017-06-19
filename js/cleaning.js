@@ -22,7 +22,12 @@ function initCanvas() {
 		ctx.stroke();
 		ctx.closePath();
 		X=x; Y=y;
+	 	$(".coin").css({
+	        "top" : y + "px",
+	        "left" : x + "px"
+	    });		
  	};
+
 	clearAll=function() {void(ctx.drawImage(clean, 0, 0))};
 	blurAll=function() {void(ctx.clearRect (0, 0, el('cover').offsetWidth, el('cover').offsetHeight))};
   } else {
@@ -49,3 +54,5 @@ function initCanvas() {
   car.style.width=el('cover').offsetWidth+"px";
   car.style.height=el('cover').offsetHeight+"px";
 }
+
+
