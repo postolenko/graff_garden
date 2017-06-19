@@ -14,6 +14,10 @@ $(document).ready(function() {
 
     // ----------------------------
 
+    var lineSizeInterval;
+
+    // ----------------------------
+
     var indexTabs;
     var indexActiveTab = 0;
     var attrForActiveTabNav;
@@ -62,7 +66,7 @@ $(document).ready(function() {
 
         $(".main-slider-dots-append").append("<span class='line'></span>");
 
-            var lineSizeInterval = setTimeout(function() {
+            lineSizeInterval = setTimeout(function() {
 
                 if($(".main-slider").hasClass("slick-initialized")) {
 
