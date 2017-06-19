@@ -216,7 +216,7 @@ $(document).ready(function() {
 
             $(".coin").click(function() {
 
-                $(".make-clean").click();
+                clearAll();
 
             });
 
