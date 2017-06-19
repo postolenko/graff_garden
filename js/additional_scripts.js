@@ -87,7 +87,7 @@ $(document).ready(function () {
 
 	    }
 
-	    $(".next-sl-btn").click(function() {
+	    $(".show_popup").click(function() {
 
 	    	if( $(this).attr("data-callpopup") ) {
 
@@ -162,34 +162,35 @@ $(document).ready(function () {
 
 
     $(".miniature").not(".slick-initialized").slick({
-      centerMode: true,
+      // centerMode: true,
       dots: true,
       arrows: false,
       speed: 700,
-      slidesToShow: 3,
+      centerPadding : "5px",
+      slidesToShow: 7,
       slideToScroll: 1,
       focusOnSelect: true,
       autoplay: true,
       autoplaySpeed: 17000,
       appendDots: ".portfolio-slider-pagination",
       asNavFor: ".portfolio-slider-big",
-        responsive: [
+      responsive: [
 	    {
 	      breakpoint: 768,
 	      settings: {
-	        slidesToShow: 3
+	        slidesToShow: 6
 	      }
 	    },
 	    {
 	      breakpoint: 480,
 	      settings: {
-	        slidesToShow: 3
+	        slidesToShow: 5
 	      }
 	    },
 	    {
-	      breakpoint: 350,
+	      breakpoint: 355,
 	      settings: {
-	        slidesToShow: 2
+	        slidesToShow: 3
 	      }
 	    }
 	  ]
@@ -209,21 +210,21 @@ $(document).ready(function () {
       // appendDots: ".portfolio-slider-pagination",
         responsive: [
 	    {
-	      breakpoint: 768,
+	      breakpoint: 923,
 	      settings: {
 	        slidesToShow: 3
 	      }
 	    },
 	    {
-	      breakpoint: 480,
-	      settings: {
-	        slidesToShow: 3
-	      }
-	    },
-	    {
-	      breakpoint: 350,
+	      breakpoint: 689,
 	      settings: {
 	        slidesToShow: 2
+	      }
+	    },
+	    {
+	      breakpoint: 490,
+	      settings: {
+	        slidesToShow: 1
 	      }
 	    }
 	  ]

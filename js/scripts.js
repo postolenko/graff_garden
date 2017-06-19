@@ -46,6 +46,8 @@ $(document).ready(function() {
 
         getHeaderFixedPosition();
 
+        getLineControlsSize();
+
     });
 
     $(document).scroll(function() {
@@ -54,6 +56,24 @@ $(document).ready(function() {
 
     });
 
+    // -------------------
+
+    $(function() {
+
+    $(".main-slider-dots-append").append("<span class='line'></span>");
+
+        var lineSizeInterval = setTimeout(function() {
+
+            if($(".main-slider").hasClass("slick-initialized")) {
+
+                clearInterval(lineSizeInterval);
+
+                getLineControlsSize();
+            }
+
+        }, 35);
+
+    });
 
     // ------ Tabs -------
 
@@ -142,7 +162,7 @@ $(document).ready(function() {
         });
 
     });
-    
+
     // ------ /Tabs -------
 
     // ----------------------
@@ -180,7 +200,7 @@ $(document).ready(function() {
 
             for( indexTabLink = 0; indexTabLink <= $(".tabs:eq("+ indexTabs +") .tab-nav li").length - 1; indexTabLink ++ ) {
 
-                $(".tabs:eq("+ indexTabs +") .tab-nav li:eq("+ indexTabLink +") button").prepend("<span class='tab-link-num'>"+ ( indexTabLink + 1 ) +"</span>");
+                $(".tabs:eq("+ indexTabs +") .tab-nav li:eq("+ indexTabLink +") button").prepend("<span class='tab-link-num'><i class='num'>"+ ( indexTabLink + 1 ) +"</i></span>");
 
             }
 
@@ -233,6 +253,21 @@ $(document).ready(function() {
             }
 
         }, 35);
+
+    }
+
+    // ------------------------------
+  
+
+    function getLineControlsSize() {
+
+        var widthLine = $(".main-slider-dots-append .slick-dots li:last-child").offset().left -  $(".main-slider-dots-append .slick-dots li:eq("+ 0+")").offset().left;
+
+        $(".main-slider-dots-append .line").css({
+            "width" : widthLine + "px"
+        });
+
+        $(".main-slider-dots-append .line").offset({left: $(".main-slider-dots-append .slick-dots li:eq("+ 0+")").offset().left});
 
     }
 
