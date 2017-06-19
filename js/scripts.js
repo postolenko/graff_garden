@@ -57,16 +57,13 @@ $(document).ready(function() {
 
     // ------ Tabs -------
 
-
-        $(function() {
+    $(function() {
 
         for(indexTabs = 0; indexTabs < $(".tabs").length; indexTabs++ ) {
 
             if( $(".tabs:eq("+ indexTabs +") .tabs-content-box .tab").length > 0 ) {
 
                 $(".tabs:eq("+ indexTabs +") .tabs-content-box .tab").css({"display" : "none"});
-
-                // $(".tabs:eq("+ indexTabs +") .tab-nav").append("<span class='active_bg'></span>");
 
                 $(".tabs:eq("+ indexTabs +") .tab-link").each(function() {
 
@@ -79,8 +76,6 @@ $(document).ready(function() {
                     }
 
                 });
-
-                // getActiveTabBgPosition(indexTabs, indexActiveTab);
 
             }
 
@@ -142,13 +137,12 @@ $(document).ready(function() {
 
                 }, 800);
 
-            }            
-
-            // getActiveTabBgPosition(indexTabs, attrForActiveTabNav);
+            }
 
         });
 
     });
+    
     // ------ /Tabs -------
 
     // ----------------------

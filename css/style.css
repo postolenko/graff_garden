@@ -364,6 +364,132 @@ a:active {
     float: right;
 }
 
+.float_el {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    width: auto;
+    height: auto;
+    -webkit-animation: vertical_float_elem_one 4s infinite;
+    -moz-animation:    vertical_float_elem_one 4s infinite;
+    -o-animation:      vertical_float_elem_one 4s infinite;
+    animation:         vertical_float_elem_one 4s infinite;
+}
+
+@keyframes vertical_float_elem_one {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -46px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+@-webkit-keyframes vertical_float_elem_one {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -46px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+@-moz-keyframes vertical_float_elem_one {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -46px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+@-o-keyframes vertical_float_elem_one {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: -46px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.float_el img {
+    width: auto;
+    height: auto;
+}
+
+
+.float_el_1 {
+    z-index: 3;
+    top: 0;
+    right: 0;
+}
+
+.float_el_2 {
+    top: 31%;
+    left: 0;
+    z-index: 2;
+}
+
+.float_el_3 {
+    top: 33%;
+    right: 0;
+}
+
+.float_el_4 {
+    bottom: 0;
+    right: 0;
+}
+
+.float_el_5 {
+    top: 37%;
+    right: 0;
+}
+
+.float_el_6 {
+    bottom: -104px;
+    left: -2%;
+}
+
+.float_el_7 {
+    top: 10%;
+    left: 4%;
+}
+
+.float_el_8 {
+    top: 25%;
+    right: 0%;
+}
+
+.float_el_9 {
+    top: 76%;
+    right: 0%;
+}
+
+.float_el_10 {
+    top: 88%;
+    left: -4%;
+}
+
 
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
@@ -1554,7 +1680,7 @@ a:active {
 .portfolio-sect {
     position: relative;
     margin-bottom: -80px;
-    padding: 64px 0 0 0;
+    padding: 74px 0 0 0;
     position: relative;
     z-index: 4;
 }
@@ -2260,6 +2386,11 @@ a:active {
     max-width: 750px;
     position: relative;
     z-index: 2;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    -ms-border-radius: 0 0 4px 4px;
+    -o-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
     background: rgba(255, 255, 255, 1);
     -webkit-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 25px 25px 0 rgba(0, 0, 0, .1);
