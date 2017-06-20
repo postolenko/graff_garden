@@ -21,11 +21,7 @@ function initCanvas() {
 		ctx.lineTo(X, Y);
 		ctx.stroke();
 		ctx.closePath();
-		X=x; Y=y;
-	 	$(".coin").css({
-	        "top" : y + "px",
-	        "left" : x + "px"
-	    });		
+		X=x; Y=y;	
  	};
 
 	clearAll=function() {void(ctx.drawImage(clean, 0, 0))};

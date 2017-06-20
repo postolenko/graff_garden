@@ -64,13 +64,22 @@
 
 	/*-- Header --*/
 
+	.header-site.fixed .col-1 {
+		padding: 0 0 0 14%;
+	}
+
+	.header-site.fixed .col-3 {
+	    padding: 0 10% 0 0;
+	}
+
 	.tel-block a.tel-link {
 	    font-size: 23px;
 	    line-height: 23px;
 	}
 
 	.header-site.fixed .row {
-	    background-position: center -22px;
+		background-size: 112%;
+	   	background-position: center -80px;
 	}
 
 	/*-- /Header --*/
@@ -110,14 +119,10 @@
 	/*-- Header --*/
 
 	.header-site .row {
-	    min-height: 194px;
-	    padding: 10px 0 0 0;
-	    background-position: center -24px;
-	    background-size: 127%;
-	}
-
-	.header-site.fixed .row {
-	    background-position: center -44px;
+		min-height: 194px;
+		padding: 10px 0 0 0;
+		background-position: center -18px;
+		background-size: 129%;
 	}
 
 	.header-site .col-1 {
@@ -126,6 +131,26 @@
 
 	.header-site .col-3 {
 	   	padding: 0 1% 0 0;
+	}
+
+	.header-site.fixed .row {
+	    background-position: center -73px;
+	}
+
+	.header-site.fixed .row {
+	    background-size: 119%;
+	}
+
+	.header-site.fixed .col-1 {
+	    padding: 0 0 0 10%;
+	}
+
+	.header-site.fixed .col-3 {
+	    padding: 0 5% 0 0;
+	}
+
+	.header-site.fixed .input-block {
+	    max-width: 163px;
 	}
 
 	/*-- /Header --*/
@@ -235,12 +260,21 @@
 	}
 
 	.header-site .input-block {
-	    min-width: 160px;
+	    min-width: 130px;
 	    margin: 0;
 	}
 
-	.header-site .submit-btn {
-	    min-width: 188px;
+	.header-site.fixed .row {
+	    background-size: 131%;
+	    background-position: center -65px;
+	}
+
+	.header-site.fixed .col-1 {
+	    padding: 0 0 0 7%;
+	}
+
+	.header-site.fixed .col-3 {
+	    padding: 0;
 	}
 
 	/*-- /Header --*/
@@ -318,6 +352,10 @@
 	    background-image: none;
 	}
 
+	.header-site .col {
+	    vertical-align: middle;
+	}
+
 	.header-site .col-1,
 	.header-site .col-2 {
 	    padding: 0;
@@ -341,8 +379,8 @@
 	}
 
 	.logo-box .logo {
-	    width: 134px;
-	    height: 70px;
+		width: 117px;
+		height: 62px;
 	}
 
 	.header-site .col-3 .callback-form {
@@ -350,24 +388,26 @@
 	}
 
 	.tel-block p {
-	    font-size: 13px;
-	    line-height: 16px;
+	    display: none;
+	}
+
+	.tel-block p.tel-p {
+		display: inline-block;
+		vertical-align: middle;
 	}
 
 	.callback-btn {
 	  	display: inline-block;
 	  	vertical-align: middle;
-	  	position: relative;
-	  	top: 14px;
 	}
 
 	.header-site.fixed .row {
-	    min-height: 94px;
+	    min-height: 68px;
 	}
 
 	.header-site.fixed .logo-box .logo {
-	    width: 165px;
-	    height: 82px;
+	    width: 104px !important;
+	    height: 58px !important;
 	}
 
 	/*-- /Header --*/

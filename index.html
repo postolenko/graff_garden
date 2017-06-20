@@ -19,6 +19,7 @@
 	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
 	<script type="text/javascript" src="slick/slick.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.maskedinput.min.js"></script>
 	<script type="text/javascript" src="vendors/js/wow.min.js"></script>
 	<script>new WOW().init();</script>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
@@ -73,11 +74,11 @@
 						<form>
 
 							<div class="input-block">
-								<input type="tel" placeholder="Ваш номер">
+								<input type="tel" class="phone" placeholder="Ваш номер">
 							</div>
 
 							<div class="submit-block">
-								<button type="submit" class="submit-btn">Позвонить мне</button>
+								<button type="submit" class="submit-btn header-submit"><i class="fa fa-paper-plane" aria-hidden="true"></i><span>Позвонить мне</span></button>
 							</div>
 
 						</form>
@@ -111,7 +112,7 @@
 				<form>
 
 					<div class="input-block">
-						<input type="tel" placeholder="Ваш номер">
+						<input type="tel" class="phone" placeholder="Ваш номер">
 					</div>
 
 					<div class="submit-block">
@@ -842,10 +843,6 @@
 
 							<div class="promo-card">
 
-								<div class="coin" onselectstart="return false" onmousedown="return false">
-									<img src="img/coin.png" alt="" />
-								</div>
-
 								<div class="clear-block">
 
 									<script src="js/cleaning.js" type="text/javascript"></script>
@@ -875,10 +872,6 @@
 
 									</script>
 
-									<div class="links">
-										<a class="make-clean"></a>
-									</div>
-
 								</div>
 
 								<p>Сотрите защитное покрытие и получите скидку до - 15%!</p>
@@ -898,7 +891,7 @@
 									</div>
 
 									<div class="input-block">
-										<input type="tel" placeholder="+7 (___) ___-__-__">
+										<input type="tel" class="phone" placeholder="+7(___) ___-__-__">
 									</div>										
 
 									<div class="submit-block">
@@ -990,7 +983,7 @@
 
 						<div class="form-block">
 							<div class="input-block">
-								<input type="tel" placeholder="+7 (___) ___-__-__">
+								<input type="tel" class="phone" placeholder="+7 (___) ___-__-__">
 							</div>
 							<div class="input-block submit-block">
 								<button type="submit" class="submit-btn">Позвонить мне</button>

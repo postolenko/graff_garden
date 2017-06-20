@@ -40,6 +40,8 @@ $(document).ready(function() {
 
         $(".wrapper").css({"padding-bottom" :  $(".footer").outerHeight(true) + "px"});
 
+        bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
+
         // ----------------------------------------------------------------------------
 
         $(".popup").css({
@@ -225,6 +227,14 @@ $(document).ready(function() {
             });
 
         }
+
+    });
+
+    // ----------------------
+
+    $(function() {
+
+        $(".phone").mask("+7(999) 999-99-99");
 
     });
 
