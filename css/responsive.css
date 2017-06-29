@@ -829,6 +829,10 @@
 	    margin: -100px 0 0 0;
 	}
 
+	.portfolio-slider-pagination .slick-dots {
+	    margin: 18px 0 2px 0;
+	}
+
 	/*-- /Section 5 Main Page --*/
 
 	/*-- Section 9 Main Page --*/
@@ -884,6 +888,11 @@
 
 	.promo-card {
 	    padding: 20px 2%;
+	}
+
+	.discount-block .input-block,
+	.discount-block .submit-btn {
+	    min-width: 290px;
 	}
 
 	/*-- /Section 8 Main Page --*/
