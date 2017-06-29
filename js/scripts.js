@@ -66,18 +66,17 @@ $(document).ready(function() {
 
     $(function() {
 
-        $(".main-slider-dots-append").append("<span class='line'></span>");
+        lineSizeInterval = setInterval(function() {
 
-            lineSizeInterval = setTimeout(function() {
+            if($(".main-slider").hasClass("slick-initialized")) {
 
-                if($(".main-slider").hasClass("slick-initialized")) {
+                clearInterval(lineSizeInterval);
 
-                    clearInterval(lineSizeInterval);
+                getLineControlsSize();
 
-                    getLineControlsSize();
-                }
+            }
 
-            }, 35);
+        }, 35);
 
     });
 
@@ -234,7 +233,9 @@ $(document).ready(function() {
 
     $(function() {
 
-        $(".phone").mask("+7(999) 999-99-99");
+        $(".phone").mask("(999) 999-99-99");
+
+        $(".header-phone").mask("+7 (999) 999-99-99");
 
     });
 

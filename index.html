@@ -74,7 +74,7 @@
 						<form>
 
 							<div class="input-block">
-								<input type="tel" class="phone" placeholder="Ваш номер">
+								<input type="tel" class="phone header-phone" placeholder="Ваш номер">
 							</div>
 
 							<div class="submit-block">
@@ -111,8 +111,8 @@
 						
 				<form>
 
-					<div class="input-block">
-						<input type="tel" class="phone" placeholder="Ваш номер">
+					<div class="input-block tel-input-block">
+						<span>+7</span><input type="tel" class="phone" placeholder="(___) ___-__-__">
 					</div>
 
 					<div class="submit-block">
@@ -157,22 +157,22 @@
 
 								<div class="main-slider-dots-append">
 									<nobr></nobr>
+									<span class='line'></span>
 								</div>
 
 								<div class="main-slider-arows-append">
-
+									
 									<div class="inner">
-
-										<div class="slide-append-descript">
-											
-										</div>
-
+										<p class="quote quote-left"></p>
+										<div class="slide-append-descript"></div>
+										<p class="quote quote-right"></p>
 									</div>
-
+									
 								</div>
 
 								<div class="main-slider-btn">
-									<button type="button" class="next-sl-btn show_popup">
+									<button type="button" class="sl-btn prev-sl-btn">Назад</button>
+									<button type="button" class="sl-btn next-sl-btn show_popup">
 										<span class="next-sl-btn-txt">Начнем!&nbsp;&nbsp;&#10095;</span>
 									</button>
 								</div>
@@ -195,9 +195,9 @@
 
 								<div class="slide">
 
-									<img class="desktop-img" src="img/main_slider/image_01.jpg" alt="" />
-									<img class="resp-tab-img" src="img/main_slider/image_01_tab_resp.jpg" alt="" />
-									<img class="resp-smart-img" src="img/main_slider/image_01_resp.jpg" alt="" />
+									<img class="desktop-img" src="img/main_slider/image_02.jpg" alt="" />
+									<img class="resp-tab-img" src="img/main_slider/image_02_tab_resp.jpg" alt="" />
+									<img class="resp-smart-img" src="img/main_slider/image_02_resp.jpg" alt="" />
 
 									<div class="slide-descript">
 										<p>Описание 2</p>
@@ -207,9 +207,9 @@
 
 								<div class="slide">
 
-									<img class="desktop-img" src="img/main_slider/image_01.jpg" alt="" />
-									<img class="resp-tab-img" src="img/main_slider/image_01_tab_resp.jpg" alt="" />
-									<img class="resp-smart-img" src="img/main_slider/image_01_resp.jpg" alt="" />
+									<img class="desktop-img" src="img/main_slider/image_03.jpg" alt="" />
+									<img class="resp-tab-img" src="img/main_slider/image_03_tab_resp.jpg" alt="" />
+									<img class="resp-smart-img" src="img/main_slider/image_03_resp.jpg" alt="" />
 
 									<div class="slide-descript">
 										<p>Описание 3</p>
@@ -219,12 +219,24 @@
 
 								<div class="slide">
 
-									<img class="desktop-img" src="img/main_slider/image_01.jpg" alt="" />
-									<img class="resp-tab-img" src="img/main_slider/image_01_resp.jpg" alt="" />
-									<img class="resp-smart-img" src="img/main_slider/image_01_resp.jpg" alt="" />
+									<img class="desktop-img" src="img/main_slider/image_04.jpg" alt="" />
+									<img class="resp-tab-img" src="img/main_slider/image_04_resp.jpg" alt="" />
+									<img class="resp-smart-img" src="img/main_slider/image_04_resp.jpg" alt="" />
 
 									<div class="slide-descript">
 										<p>Описание 4</p>
+									</div>
+
+								</div>
+
+								<div class="slide">
+
+									<img class="desktop-img" src="img/main_slider/image_05.jpg" alt="" />
+									<img class="resp-tab-img" src="img/main_slider/image_05_resp.jpg" alt="" />
+									<img class="resp-smart-img" src="img/main_slider/image_05_resp.jpg" alt="" />
+
+									<div class="slide-descript">
+										<p>Описание 5</p>
 									</div>
 
 								</div>
@@ -573,124 +585,319 @@
 
 						<div class="portfolio-slider-arrows"></div>
 
-						<!-- <div class="col col-1"> -->
+						<div class="portfolio-slider-big">
 
-							<div class="portfolio-slider-big">
+							<div class="slide clearfix">
+								<div class="col col-1">
 
-								<div class="slide clearfix">
-									<div class="col col-1">
-										<div class="big-photo">
-											<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
-											<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+									<div class="big-tab-slider-box">
+
+										<div class="big-tab-slider" data-tab-slider-index = "1">
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
 										</div>
+
 									</div>
-									<div class="col col-2 ">
-										<h3>Участке 35 соток в Подмосковье</h3>
-										<ol class="mark-list">
-											<li>Дизайн</li>
-											<li>Газон</li>
-											<li>Фикусы</li>
-											<li>Освещение</li>
-										</ol>
-										<p class="price"><nobr>98 000 <i class="fa fa-rub" aria-hidden="true"></i></nobr></p>
+
+									<div class="miniature-tab-slider-box">
+
+										<div class="miniature" data-tab-slider-index = "1">
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_02_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_03_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+										</div>
+
 									</div>
+
 								</div>
-
-								<div class="slide clearfix">
-									<div class="col col-1">
-										<div class="big-photo">
-											<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
-											<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
-										</div>
-									</div>
-									<div class="col col-2">
-										<h3>Слайд 2</h3>
-										<ol class="mark-list">
-											<li>Дизайн</li>
-											<li>Газон</li>
-											<li>Фикусы</li>
-											<li>Освещение</li>
-										</ol>
-										<p class="price"><nobr>98 000 <i class="fa fa-rub" aria-hidden="true"></i></nobr></p>
-									</div>
-								</div>
-
-								<div class="slide clearfix">
-									<div class="col col-1">
-										<div class="big-photo">
-											<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
-											<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
-										</div>
-									</div>
-									<div class="col col-2">
-										<h3>Слайд 3</h3>
-										<ol class="mark-list">
-											<li>Дизайн</li>
-											<li>Газон</li>
-											<li>Фикусы</li>
-											<li>Освещение</li>
-										</ol>
-										<p class="price"><nobr>98 000 <i class="fa fa-rub" aria-hidden="true"></i></nobr></p>
-									</div>
-								</div>
-
-								<div class="slide clearfix">
-									<div class="col col-1">
-										<div class="big-photo">
-											<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
-											<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
-										</div>
-									</div>
-									<div class="col col-2">
-										<h3>Участке 35 соток в Подмосковье</h3>
-										<ol class="mark-list">
-											<li>Дизайн</li>
-											<li>Газон</li>
-											<li>Фикусы</li>
-											<li>Освещение</li>
-										</ol>
-										<p class="price"><nobr>98 000 <i class="fa fa-rub" aria-hidden="true"></i></nobr></p>
-									</div>
-								</div>
-
-							</div>
-
-						<!-- </div> -->
-
-						<!-- <div class="col col-2"> -->
-
-							<div class="miniature">
-								<div class="slide">
-									<div class="img-box">
-										<div>
-											<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
-										</div>
-									</div>
-								</div>
-								<div class="slide">
-									<div class="img-box">
-										<div>
-											<img src="img/portfolio_slider/miniatures/photo_02_min.jpg" alt="" />
-										</div>
-									</div>
-								</div>
-								<div class="slide">
-									<div class="img-box">
-										<div>
-											<img src="img/portfolio_slider/miniatures/photo_03_min.jpg" alt="" />
-										</div>
-									</div>
-								</div>
-								<div class="slide">
-									<div class="img-box">
-										<div>
-											<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
-										</div>
-									</div>
+								<div class="col col-2 ">
+									<h3>Участке 35 соток в Подмосковье</h3>
+									<ol class="mark-list">
+										<li>Дизайн</li>
+										<li>Газон</li>
+										<li>Фикусы</li>
+										<li>Освещение</li>
+									</ol>
+									<p class="price"><nobr>98 000 <i class="fa fa-rub" aria-hidden="true"></i></nobr></p>
 								</div>
 							</div>
 
-						<!-- </div> -->
+							<div class="slide clearfix">
+								<div class="col col-1">
+									<div class="big-tab-slider-box">
+
+										<div class="big-tab-slider" data-tab-slider-index = "2">
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="miniature-tab-slider-box">
+
+										<div class="miniature" data-tab-slider-index = "2">
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_02_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_03_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col col-2">
+									<h3>Слайд 2</h3>
+									<ol class="mark-list">
+										<li>Дизайн</li>
+										<li>Газон</li>
+										<li>Фикусы</li>
+										<li>Освещение</li>
+									</ol>
+									<p class="price"><nobr>98 000 <i class="fa fa-rub" aria-hidden="true"></i></nobr></p>
+								</div>
+							</div>
+
+							<div class="slide clearfix">
+								<div class="col col-1">
+									<div class="big-tab-slider-box">
+
+										<div class="big-tab-slider" data-tab-slider-index = "3">
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="miniature-tab-slider-box">
+
+										<div class="miniature" data-tab-slider-index = "3">
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_02_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_03_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col col-2">
+									<h3>Слайд 3</h3>
+									<ol class="mark-list">
+										<li>Дизайн</li>
+										<li>Газон</li>
+										<li>Фикусы</li>
+										<li>Освещение</li>
+									</ol>
+									<p class="price"><nobr>98 000 <i class="fa fa-rub" aria-hidden="true"></i></nobr></p>
+								</div>
+							</div>
+
+							<div class="slide clearfix">
+								<div class="col col-1">
+									<div class="big-tab-slider-box">
+
+										<div class="big-tab-slider" data-tab-slider-index = "4">
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+											<div class="tab-slide big-photo">
+												<img class="desktop-img" src="img/portfolio_slider/photo_01.jpg" alt="" />
+												<img class="resp-img" src="img/portfolio_slider/photo_01_resp.jpg" alt="" />
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="miniature-tab-slider-box">
+
+										<div class="miniature" data-tab-slider-index = "4">
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_02_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_03_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+											<div class="slide">
+												<div class="img-box">
+													<div>
+														<img src="img/portfolio_slider/miniatures/photo_01_min.jpg" alt="" />
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col col-2">
+									<h3>Участке 35 соток в Подмосковье</h3>
+									<ol class="mark-list">
+										<li>Дизайн</li>
+										<li>Газон</li>
+										<li>Фикусы</li>
+										<li>Освещение</li>
+									</ol>
+									<p class="price"><nobr>98 000 <i class="fa fa-rub" aria-hidden="true"></i></nobr></p>
+								</div>
+							</div>
+
+						</div>						
 
 						<div class="portfolio-slider-pagination"></div>
 
@@ -889,9 +1096,9 @@
 										<input type="email" placeholder="Введите e-mail">
 									</div>
 
-									<div class="input-block">
-										<input type="tel" class="phone" placeholder="+7(___) ___-__-__">
-									</div>										
+									<div class="input-block tel-input-block">
+										<span>+7</span><input type="tel" class="phone" placeholder="(___) ___-__-__">
+									</div>							
 
 									<div class="submit-block">
 										<button type="submit" class="submit-btn">Получить скидку</button>
@@ -981,8 +1188,8 @@
 						<h4>Введите ваш телефон</h4>
 
 						<div class="form-block">
-							<div class="input-block">
-								<input type="tel" class="phone" placeholder="+7 (___) ___-__-__">
+							<div class="input-block tel-input-block">
+								<span>+7</span><input type="tel" class="phone" placeholder="(___) ___-__-__">
 							</div>
 							<div class="input-block submit-block">
 								<button type="submit" class="submit-btn">Позвонить мне</button>
