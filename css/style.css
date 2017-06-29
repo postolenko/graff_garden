@@ -1017,14 +1017,14 @@ a:active {
 }
 
 .main-slider-header {
-    min-height: 162px;
-    padding: 30px 0 21px 0 !important;
+    min-height: 151px;
+    padding: 30px 0 10px 0 !important;
 }
 
 .main-slider-dots-append {
     display: inline-block;
     vertical-align: middle;
-    width: 41%;
+    width: 31%;
     overflow: hidden;
     padding: 5px 0;
     position: relative;
@@ -1033,19 +1033,11 @@ a:active {
 .main-slider-arows-append {
     display: inline-block;
     vertical-align: middle;
-    width: 29%;
+    width: 44%;
     text-align: center;
-    padding: 11px 0 0 0;
+    padding: 11px 1% 0 1%;
 }
 
-.main-slider-arows-append .inner {
-    display: inline-block;
-    vertical-align: top;
-    width: auto;
-    min-width: 40%;
-    max-width: 92%;
-    position: relative;
-}
 
 .main-slider-arows-append {
     position: relative;
@@ -1054,7 +1046,7 @@ a:active {
 .main-slider-btn {
     display: inline-block;
     vertical-align: middle;
-    width: 30%;
+    width: 25%;
     text-align: right;
 }
 
@@ -1067,7 +1059,7 @@ a:active {
 
 .slide-append-descript p {
     font-family: "Proxima Nova", Arial, Verdana, sans-serif;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 25px;
     font-weight: normal;
     color: #000000;
@@ -1078,8 +1070,8 @@ a:active {
     vertical-align: top;
     text-align: center;
     cursor: pointer;
-    min-width: 160px;
-    margin: 3px 2%;
+    min-width: 140px;
+    margin: 3px 1%;
     font-family: "Museo Sans Cyrl", Arial, Verdana, sans-serif;
     font-size: 16px;
     line-height: 38px;
@@ -1189,9 +1181,9 @@ a:active {
 .main-slider-dots-append .slick-dots li {
     display: inline-block;
     vertical-align: top;
-    width: 70px;
-    height: 70px;
-    margin: 0 1%;
+    width: 52px;
+    height: 52px;
+    margin: 0 .5%;
     position: relative;
     z-index: 2;
     background: rgba(255, 255, 255, 1);
@@ -1205,17 +1197,17 @@ a:active {
 
 .main-slider-dots-append .slick-dots li button {
     display: block;
-    width: 68px;
-    height: 68px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
     font-family: "Museo Sans Cyrl", Arial, Verdana, sans-serif;
-    font-size: 24px;
-    line-height: 21px;
-    padding: 5px 1% 6px 1%;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 4px 1%;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
-    border: 8px solid #ffffff;
+    border: 6px solid #ffffff;
     background: rgba(220, 220, 220, 1);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
