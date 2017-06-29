@@ -1048,31 +1048,35 @@
 
 								<div class="clear-block">
 
-									<script src="js/cleaning.js" type="text/javascript"></script>
+									<div class="inner">
 
-									<canvas class="promo-box" id="promo_disc"></canvas>
+										<script src="js/cleaning.js" type="text/javascript"></script>
 
-									<div class="cover-block" id="cover" onmousemove="try {draw((event.offsetX||event.layerX), (event.offsetY||event.layerY))} catch(e) {}" onmouseover="{X=0; Y=0}"></div>
+										<canvas class="promo-box" id="promo_disc"></canvas>
 
-									<script type="text/javascript">
+										<div class="cover-block" id="cover" onmousemove="try {draw((event.offsetX||event.layerX), (event.offsetY||event.layerY))} catch(e) {}" onmouseover="{X=0; Y=0}"></div>
 
-										var imgDiscountCatalog = "discount_img/";
-										var minDiscount = 1; // с первой картинки. Названа как img_1.jpg
-										var maxDiscount = 11; // самая последняя картинка . Названая как img_11.jpg
-										var indexActualDiscount;
-										var actualDiscountPath;
+										<script type="text/javascript">
 
-										indexActualDiscount = Math.floor( Math.random() * (maxDiscount - minDiscount) + minDiscount );
+											var imgDiscountCatalog = "discount_img/";
+											var minDiscount = 1; // с первой картинки. Названа как img_1.jpg
+											var maxDiscount = 11; // самая последняя картинка . Названая как img_11.jpg
+											var indexActualDiscount;
+											var actualDiscountPath;
 
-										actualDiscountPath = imgDiscountCatalog + "img_" + indexActualDiscount + ".jpg";
+											indexActualDiscount = Math.floor( Math.random() * (maxDiscount - minDiscount) + minDiscount );
 
-										var dirty = new Image(), clean = new Image(), carsLoad=0;
-										// Переменные, которые можно менять
-										clean.src = actualDiscountPath;
-										dirty.src = 'img/dirty.jpg';
-										d = 60; // Размер очищаемой области
-										window.onload = initCanvas;
-									</script>
+											actualDiscountPath = imgDiscountCatalog + "img_" + indexActualDiscount + ".jpg";
+
+											var dirty = new Image(), clean = new Image(), carsLoad=0;
+											// Переменные, которые можно менять
+											clean.src = actualDiscountPath;
+											dirty.src = 'img/dirty.jpg';
+											d = 60; // Размер очищаемой области
+											window.onload = initCanvas;
+										</script>
+
+									</div>
 
 								</div>
 
